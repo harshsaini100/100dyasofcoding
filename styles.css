@@ -1,0 +1,60 @@
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./peakpx.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    filter: blur(4px);
+    background-blend-mode: difference;
+    z-index: -1;
+}
+
+.text-container {
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    max-width: 60% !important;
+}
+h1{
+    font-size: 70px !important;
+    font-weight: bolder !important;
+    color: rgb(255, 234, 0) !important;
+}
+.cbox{
+
+    height: 39px;
+    width: 40px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50%;
+    background-color: rgb(201, 201, 201);
+     
+
+}
+.checkboxes{
+    width: 45%;
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.checked{
+    /* background-color: red; */
+    background-image: url('./chk.png');
+    background-size: contain;
+}
+footer{
+    color: white
+}
+
+a{
+    margin-left: 2%;
+    text-decoration: none !important;
+ }
